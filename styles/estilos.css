@@ -10,7 +10,15 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 15px;
+    background-color: rgb(224, 226, 220);
+    border-bottom: 1px solid gray;
+    box-shadow: 1px 1px rgb(84, 82, 82) ;
 }
+.navbar > li{
+    display: flex;
+    align-items: center;
+}
+
 .logo{
     height: 70px;
     }
@@ -28,7 +36,8 @@ button{
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
-    font-weight: bolder ;    
+    font-weight: bolder ; 
+    width: 150px;   
 }
 .button:hover{
     cursor: pointer;
@@ -54,6 +63,9 @@ button{
     border: 1px solid gray;
     padding: 4px;
     border-radius: 8px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
 }
 .buscar:focus-within{
     border: 1px solid blue;
@@ -61,4 +73,7 @@ button{
 .buscar > input{
     border: 0px;
     outline: none;
+}
+.icono-busqueda:hover{
+    color: blue;
 }
