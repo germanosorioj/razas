@@ -77,3 +77,19 @@ button{
 .icono-busqueda:hover{
     color: blue;
 }
+.contenedor-imagen{
+    width: 240px;
+    height: 350px;
+    display: flex;
+}
+.contenedor-imagen > img{
+    object-fit:cover;
+    width: 100%;
+}
+.card-container{
+    display: flex;
+}
+
+.card{
+    margin-left: 10px;
+}
