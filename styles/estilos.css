@@ -82,14 +82,30 @@ button{
     height: 350px;
     display: flex;
 }
+.contenedor-imagen:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
 .contenedor-imagen > img{
     object-fit:cover;
     width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-bottom: 10px;
 }
 .card-container{
     display: flex;
 }
-
 .card{
     margin-left: 10px;
+    background-color: rgb(115, 112, 112);
+    box-shadow: 10px 10px 5px rgb(234, 232, 232);
+    border-radius: 15px;
+}
+.tituloRaza{
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-size:x-large;
 }
