@@ -11,19 +11,29 @@ ul{
     justify-content: space-between;
     padding: 10px;
 }
-.mainButton{
-    background-color: blue;
-    color: white;
-    font-weight: bold;
+
+button{
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
-    font-weight: bolder ;
-    box-shadow: rgb(111, 109, 111) 2px 2px;
+    font-weight: bolder ;    
+}
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.mainButton{
+    background-color: blue;
+    color: white;
 }
 .mainButton:hover{
-    cursor: pointer;
     box-shadow: rgb(111, 109, 111) 4px 4px;
-    background-color: rgb(48, 43, 198);
-    transform: scale(1.1);
+    background-color: rgb(48, 43, 198);    
+}
+.secundaryButton{
+    background-color: rgb(39, 219, 60);
+    color: white;    font-weight: bold;
+}
+.secundaryButton:hover{
+    box-shadow: rgb(111, 109, 111) 2px 2px;
 }
