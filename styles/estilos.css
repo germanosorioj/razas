@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.logo{
+    height: 70px;
+    }
+.mainButton{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder ;
+    box-shadow: rgb(111, 109, 111) 2px 2px;
+    }
+button{
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder ;    
+}
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.mainButton{
+    background-color: blue;
+    color: white;
+}
+.mainButton:hover{
+    box-shadow: rgb(111, 109, 111) 4px 4px;
+    background-color: rgb(48, 43, 198);    
+}
+.secundaryButton{
+    background-color: rgb(39, 219, 60);
+    color: white;    font-weight: bold;
+}
+.secundaryButton:hover{
+    box-shadow: rgb(111, 109, 111) 2px 2px;
+}
+.buscar{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+}
+.buscar:focus-within{
+    border: 1px solid blue;
+}
+.buscar > input{
+    border: 0px;
+    outline: none;
+}
