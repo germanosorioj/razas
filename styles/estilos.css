@@ -49,3 +49,16 @@ button{
 .secundaryButton:hover{
     box-shadow: rgb(111, 109, 111) 2px 2px;
 }
+.buscar{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+}
+.buscar:focus-within{
+    border: 1px solid blue;
+}
+.buscar > input{
+    border: 0px;
+    outline: none;
+}
