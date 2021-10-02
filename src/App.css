@@ -1,0 +1,111 @@
+body{
+  margin: 0px;
+}
+ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: rgb(224, 226, 220);
+  border-bottom: 1px solid gray;
+  box-shadow: 1px 1px rgb(84, 82, 82) ;
+}
+.navbar > li{
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  height: 70px;
+  }
+.mainButton{
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border: 0px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bolder ;
+  box-shadow: rgb(111, 109, 111) 2px 2px;
+  }
+button{
+  border: 0px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bolder ; 
+  width: 150px;   
+}
+.button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.mainButton{
+  background-color: blue;
+  color: white;
+}
+.mainButton:hover{
+  box-shadow: rgb(111, 109, 111) 4px 4px;
+  background-color: rgb(48, 43, 198);    
+}
+.secundaryButton{
+  background-color: rgb(39, 219, 60);
+  color: white;    font-weight: bold;
+}
+.secundaryButton:hover{
+  box-shadow: rgb(111, 109, 111) 2px 2px;
+}
+.buscar{
+  background-color: white;
+  border: 1px solid gray;
+  padding: 4px;
+  border-radius: 8px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.buscar:focus-within{
+  border: 1px solid blue;
+}
+.buscar > input{
+  border: 0px;
+  outline: none;
+}
+.icono-busqueda:hover{
+  color: blue;
+}
+.contenedor-imagen{
+  width: 240px;
+  height: 350px;
+  display: flex;
+}
+.contenedor-imagen:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.contenedor-imagen > img{
+  object-fit:cover;
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  margin-bottom: 10px;
+}
+.card-container{
+  display: flex;
+}
+.card{
+  margin-left: 10px;
+  background-color: rgb(115, 112, 112);
+  box-shadow: 10px 10px 5px rgb(234, 232, 232);
+  border-radius: 15px;
+}
+.tituloRaza{
+  color: white;
+  margin: 10px;
+  font-weight: bold;
+  font-size:x-large;
+}
