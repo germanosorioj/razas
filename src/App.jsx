@@ -1,3 +1,4 @@
+import CardRazas from './components/CardRazasPerros'; 
 import labrador from './media/Labrador.jpg';
 import husky from './media/Husky Siberiano.png';
 import logoperro from './media/logo-perro.jpg';
@@ -45,18 +46,5 @@ function App() {
   );
 }
 
-function CardRazas({imagen,nombreRaza}) {
-  return (
-    <li className="card">
-      <div className="contenedor-imagen">
-        <img src={imagen} alt={nombreRaza} />
-      </div>
-      <span className="tituloRaza">
-        {nombreRaza}
-      </span>
-
-    </li>
-  )
-}
 
 export default App;
